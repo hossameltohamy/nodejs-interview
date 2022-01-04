@@ -21,10 +21,10 @@ simple interactive computer programming environment  that takes single user inpu
 
 - What is the difference between Asynchronous and Non-blocking?
  Answer: 
-1- Asynchronous refers to something done in parallel, say is another thread.
- Non-blocking often refers to polling, i.e. checking whether given condition holds (socket is readable, device has more data)
- 2- Asynchronous does not respond immediately, While Nonblocking responds immediately if the data is available and if not that simply returns an error. 
- 3- Asynchronous improves the efficiency by doing the task fast as the response might come later, meanwhile, can do complete other tasks
+  1- Asynchronous refers to something done in parallel, say is another thread.
+  Non-blocking often refers to polling, i.e. checking whether given condition holds (socket is readable, device has more data)
+  2- Asynchronous does not respond immediately, While Nonblocking responds immediately if the data is available and if not that simply returns an error. 
+  3- Asynchronous improves the efficiency by doing the task fast as the response might come later, meanwhile, can do complete other tasks
 
 - List types of Http requests supported by Node.js?
   Answer: 
@@ -72,3 +72,6 @@ For this task you will need your personal account in AWS. Please create one if y
 
 Please create a new GitLab/GitHub repository, upload your lambda code in there and share link to the repo with us.
 Repository should also contain a README.md with URLs to your API GET & POST methods and explanation about how to use them (exact paths, example body for POST method).
+
+# lambda and dynmodb repositry link 
+`git clone https://github.com/hossameltohamy/NodejsServerless.git`
